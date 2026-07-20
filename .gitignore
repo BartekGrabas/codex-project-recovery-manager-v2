@@ -1,0 +1,38 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+credentials*.json
+id_rsa*
+secrets/
+private/
+customer_data/
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# User-generated recovery reports and temporary output
+reports/
+recovery-reports/
+recovery-report*.md
+exports/
+*.tmp
+*.log
